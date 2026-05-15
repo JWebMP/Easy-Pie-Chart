@@ -12,3 +12,4 @@ persistence.xml
 /target/
 **/*.iml
 /.idea/
+/dependency-reduced-pom.xml
