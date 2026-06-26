@@ -12,5 +12,5 @@ module com.jwebmp.plugins.easypiechart {
 	provides com.guicedee.client.services.config.IGuiceScanModuleInclusions with EasyPieChartInclusionModule;
 	provides com.guicedee.client.services.config.IGuiceScanModuleExclusions with com.jwebmp.plugins.easypiechart.implementations.EasyPieChartExclusionsModule;
 
-	opens com.jwebmp.plugins.easypiechart to com.fasterxml.jackson.databind, com.google.guice, com.jwebmp.core;
+	opens com.jwebmp.plugins.easypiechart to tools.jackson.databind, com.google.guice, com.jwebmp.core;
 }
